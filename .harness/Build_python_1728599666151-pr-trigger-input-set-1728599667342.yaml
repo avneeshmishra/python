@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_python_1728599666151-pr-trigger-input-set
+  identifier: Build_python_1728599666151prtriggerinputset
+  orgIdentifier: WiproPOC
+  projectIdentifier: avi_DevOps
+  pipeline:
+    identifier: Build_python_1728599666151
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
